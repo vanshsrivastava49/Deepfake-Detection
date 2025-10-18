@@ -31,6 +31,5 @@ def test_model_acc(model_name='efficientnet'):
     print(f"{model_name.capitalize()} Test Accuracy: {acc:.4f}")
 
 if __name__ == '__main__':
-    # Change to 'deit' to test DeiT model accuracy instead
-    test_model_acc('deit')
     test_model_acc('efficientnet')
+    test_model_acc('deit')

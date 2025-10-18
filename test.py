@@ -10,7 +10,7 @@ def main():
 
     # Folder containing images to test
     image_folder = './test-images/'
-
+    
     # images are resized to 224x224 pixels and then normalized
     test_transform = transforms.Compose([
         transforms.Resize((224, 224)),
