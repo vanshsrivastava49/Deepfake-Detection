@@ -1,8 +1,20 @@
 # Deepfake Detection Model
 
-This repository contains an deepfake detection model that trains and evaluates EfficientNet and DeiT models to classify human face images into two classes: **Fake** and **Real**. It includes modular code for training, evaluation, and inference on single or multiple images.
+An advanced deepfake detection system using EfficientNet and DeiT (Vision Transformer) architectures to classify human face images as **Fake** or **Real**. This repository provides modular code for data loading, training, evaluation, and inference on both single and multiple images.
 
 ---
+
+## Key Features
+
+- **Model Architectures:** Implements both EfficientNet and DeiT (Vision Transformer) models for robust face classification.
+- **Training & Evaluation:** Includes scripts for training models, evaluating on test datasets, and testing on custom images.
+- **Modular Code:** Clean, organized, and scalable codebase for easy experimentation and extension.
+- **Batch & Single Image Testing:** Supports inference on a batch of images or a single image with detailed results.
+
+---
+
+## Project Structure
+
 .
 ├── saved_models/               # Directory where trained models are saved
 │   ├── efficientnet_model_final.pth   # Trained EfficientNet model
@@ -23,5 +35,13 @@ This repository contains an deepfake detection model that trains and evaluates E
 ├── test.py                     # test the model on multiple images of our own
 └── README.md                   # This file (project overview, setup, results, etc.)
 
-Results:- Accuracy -- EfficientNet - 93%     DeiT - 94.4%  
-Dataset size:- ~1,40,000 images
+
+---
+
+## Results
+
+- **EfficientNet Test Accuracy:** 93%
+- **DeiT Test Accuracy:** 94.4%
+- **Dataset Size:** ~140,000 images (balanced real and fake faces)
+
+---
