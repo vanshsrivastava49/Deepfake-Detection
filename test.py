@@ -11,7 +11,7 @@ def main():
     # Folder containing images to test
     image_folder = './test-images/'
 
-    # Preprocessing transform (same as training)
+    # images are resized to 224x224 pixels and then normalized
     test_transform = transforms.Compose([
         transforms.Resize((224, 224)),
         transforms.ToTensor(),
@@ -40,7 +40,7 @@ def main():
 
         # Load and preprocess image
         img = Image.open(img_path).convert('RGB')
-        img_tensor = test_transform(img).unsqueeze(0).to(device)
+        img_tensor = test_transform(img).unsqueeze(0).to(device) #add batch dimension to accept images in batches and not just one image
 
         # Prediction
         with torch.no_grad():
