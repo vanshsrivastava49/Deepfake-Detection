@@ -15,7 +15,7 @@ An advanced deepfake detection system using EfficientNet and DeiT (Vision Transf
 
 ## Project Structure
 
-.
+```
 ├── saved_models/               # Directory where trained models are saved
 │   ├── efficientnet_model_final.pth   # Trained EfficientNet model
 │   └── deit_model_final.pth           # Trained DeiT model
@@ -34,7 +34,7 @@ An advanced deepfake detection system using EfficientNet and DeiT (Vision Transf
 ├── test_model_acc.py           # code to know the accuracy of the both deit and efficienet model on test dataset
 ├── test.py                     # test the model on multiple images of our own
 └── README.md                   # This file (project overview, setup, results, etc.)
-
+```
 
 ---
 
