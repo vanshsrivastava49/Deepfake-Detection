@@ -3,3 +3,9 @@ Academic_Dataset_by_Generated_Photos 1
 dataset
 saved_models
 download_faceforensics.py
+deepdeep.ipynb
+deepmain.ipynb
+best_model.pth
+efficientnet_model_final.pth
+deit_model_final.pth
+requirements.txt
