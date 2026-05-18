@@ -4,7 +4,7 @@ An advanced deepfake detection system using EfficientNet and DeiT (Vision Transf
 
 ---
 
-## Key Features
+## Important Key Features
 
 - **Model Architectures:** Implements both EfficientNet and DeiT (Vision Transformer) models for robust face classification.
 - **Training & Evaluation:** Includes scripts for training models, evaluating on test datasets, and testing on custom images.
